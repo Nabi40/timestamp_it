@@ -5,7 +5,7 @@ This project provides a simple method to find when a specific sentence or phrase
 It allows users to pass in a search phrase (query), and it will return the timestamp (in seconds) when that phrase first appears in the audio.  
 
 
-**How It Works📌**
+**How It Works📌**  
 Video Upload:  
 User uploads a .mp4 video (in the /content/video/ folder on Colab).  
 
@@ -23,7 +23,7 @@ Video Display:
 The video is embedded in the notebook using HTML5 video.  
 
 
-**Example output📌**  
+**Example output📌**   
 query = "You said he wants to erode the very fabric of civilization"  
 get_timestamp_for_query(video_path, query)  
 
@@ -32,7 +32,7 @@ Timestamp: 104.2 seconds
 
 
 
-**Strengths📌**
+**Strengths📌**  
 Extremely easy to use with minimal code.  
 Uses state-of-the-art Whisper ASR model.  
 No external dependencies apart from openai-whisper.  
@@ -41,7 +41,7 @@ No external dependencies apart from openai-whisper.
 
 
 
-**Limitations📌**
+**Limitations📌**  
 Whisper might not detect exact matches due to:  
   Word contractions (e.g., “he’s” vs “he is”)  
   Accents, noise, or audio quality  
