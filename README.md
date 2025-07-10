@@ -4,7 +4,9 @@ This project provides a simple method to find when a specific sentence or phrase
 
 It allows users to pass in a search phrase (query), and it will return the timestamp (in seconds) when that phrase first appears in the audio.  
 
+
 ---
+
 
 ## How It Works📌  
 Video Upload:  
